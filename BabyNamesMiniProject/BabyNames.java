@@ -14,7 +14,7 @@ import java.io.*;
  */
 public class BabyNames {
   
-// select file and greturn total number of names
+// select file and return total number of names
 public void totalNames(){
 FileResource fr = new FileResource();
 CSVParser parser = fr.getCSVParser(false); //because no header row
@@ -158,7 +158,7 @@ else {
 }
 }
 
-//total of the births ranked higher than given nae
+//total of the births ranked higher than given name
 public int getTotalBirthsRankedHigher(int year, String name, String gender){
 FileResource fr = new FileResource();
 CSVParser parser = fr.getCSVParser(false); //because no header row
